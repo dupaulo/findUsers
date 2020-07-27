@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/materialize.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Pesquisa de Usuários</title>
+  </head>
+  <body class="cyan darken-4 grey-text text-lighten-4">
+    <div class="container">
+      <div class="row">
+        <h1 class="col s12 center">Buscar usuários </h1>
+        <h4 class="col s12 center">IGTI </h4>
+
+        <form class="col s12">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Busca"
+            class="col s9 m10 l10 grey-text text-lighten-4"
+            disabled
+          />
+          <input
+            id="search-button"
+            class="col s3 m2 l2 btn waves-effect waves-light grey darken-1"
+            type="submit"
+            value="Buscar"
+            disabled
+          />
+        </form>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6 push-m6">
+          <div id="tab-statistics" class="tab-column">
+            <h2 id="center statistics-header">Nada a ser exibido</h2>
+            <div id="statistics-data"></div>
+          </div>
+        </div>
+        <div class="col s12 m6 pull-m6">
+          <div id="tab-users" class="tab-column">
+            <h2 id="center count-users">Nenhum usuário filtrado</h2>
+            <div id="user-list"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+   <div class="center">
+      <a
+          class="gh-link"
+          href="https://github.com/dupaulo"
+          rel="noopener noreferrer"
+          target="_blank"
+          aria-label="View on GitHub"
+          > <img src="./img/GitHub-Mark-Light-32px.png" alt="GitHub logo">
+          <span>View on GitHub</span>
+        </a></span
+      >
+    </div>
+
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>

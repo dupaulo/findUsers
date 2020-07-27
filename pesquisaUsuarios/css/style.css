@@ -1,0 +1,40 @@
+h2 {
+  font-size: 2.5rem;
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+.tab-column {
+  padding: 0 10px 0 10px;
+  margin-bottom: 15px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user img {
+  width: 50px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 10px 10px 10px 0;
+}
+
+.gh-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.gh-link img {
+  margin-right: 10px;
+}
+span, li{
+  color:#000;
+}
