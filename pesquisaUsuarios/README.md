@@ -5,3 +5,4 @@ JavaScript implementation of a search for users with an API request. Executed du
 The data is fictitious and was obtained from the public API [Ramdom User Generator](https://randomuser.me/) (a sample of data was saved locally to avoid many requests).
 
 We also use [MaterializeCSS](https://materializecss.com/) to minimally style the front-end.
+Paulo Silva.
